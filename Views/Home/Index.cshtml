@@ -1,0 +1,16 @@
+﻿﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<dynamic>
+
+@{
+  Layout = "_Layout.cshtml";
+}   
+
+<form action="/ISBN" id="form-search">
+    <p>
+        <input type="text" id="isbn" name="isbn" class="input-large search-query" value="">
+    </p>
+    <p>
+        <button type="submit" class="btn btn-small btn-primary" id="go">Let's do it</button>
+        <a href="#" class="btn btn-small btn-inverse" id="help" rel="popover">Help</a>
+    </p>
+    <div id="query"></div>
+</form>
