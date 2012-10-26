@@ -1,3 +1,3 @@
 ﻿gozinta
 
-One of my first projects that I'm beginning to revive.
+One of my first coding projects that I'm beginning to recreate.
